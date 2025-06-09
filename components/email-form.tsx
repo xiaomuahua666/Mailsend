@@ -59,7 +59,7 @@ export function EmailForm({ className, domain }: React.ComponentProps<typeof Car
             <Input
               id="nickname"
               name="nickname"
-              placeholder="Evan Huang"
+              placeholder="Your Name"
               className="group-data-[invalid=true]/field:border-destructive focus-visible:group-data-[invalid=true]/field:ring-destructive"
               disabled={pending}
               aria-invalid={!!state.errors?.nickname}
